@@ -16,6 +16,9 @@ jobs:
         key: ${{secrets.PRIVATE_KEY }}
         port: 22
         script: |
-          cd ~/projets/demo1/alex
+          cd ~/projets/demo1/alex/hello_action
           pwd
-          touch alexis.txt
+          git pull origin main
+          git status
+          npm install
+          npm build
