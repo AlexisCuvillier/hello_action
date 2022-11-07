@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     #Steps represent a sequence of tasks that will be executed as part of the job
-    staps:
+    steps:
     - name: helloweurldz
     run: echo 'Hello simplonz'
